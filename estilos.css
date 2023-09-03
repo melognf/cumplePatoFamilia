@@ -1,0 +1,201 @@
+@font-face {
+    font-family: halo;
+    src: url(Halo.ttf);
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    background-image: url(multimedia/logo2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.encabezado img {
+    width: 95%;
+    margin: auto;
+}
+
+.mensaje {
+    width: 120%;
+    height: 250px;
+}
+
+.mensaje img {
+    animation-name: guilty;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 4s;
+    width: 200px;
+    z-index: 3;
+    margin-left: 230px;
+    margin-top: 10px;
+}
+
+@keyframes guilty {
+
+    0% {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      50% {
+        margin-left: 0%;
+        width: 50%;
+    }
+
+    75% {
+        margin-left: 350px;
+        width: 50%;
+    }
+
+    100% {
+        width: 0%;
+    }
+}
+
+#guilty {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(multimedia/cabina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#mensajeDos h1 {
+    font-size: 50px;
+    font-family: halo;
+    text-shadow: 1px 2px 15px blue;
+    color: white;
+    justify-self: center;
+}
+
+#mensajeDos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+}
+
+#mensajeDos p {
+    font-size: 15px;
+    font-family: 'Bruno Ace', cursive;
+    text-shadow: 1px 2px 15px blue;
+    color: white;
+    padding: 20px;
+}
+
+.video video {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.tituloContador h4 {
+    font-family: halo;
+    font-size: 30px;
+    color: #007fff;
+    padding: 10px;
+}
+
+.tituloContador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+}
+    
+
+
+#cuenta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+} 
+
+.simply-section {
+    background-color: #838B64;
+    width: 80%;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    border: 2px solid black;
+    margin-top: 300px;
+    font-family: 'Lilita One', cursive;
+}
+
+.simply-amount {
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+    color: #b0f51d;
+}
+
+.simply-word {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#contador {
+    background-image: url(multimedia/power3.jpg);
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+footer {
+    color: white;
+    background-color: #1f1e1e;
+    font-family: 'Lilita One', cursive;
+    padding: 5px;
+    font-weight: 200;
+}
+
+#telefono h2,h4,h6,img {
+    padding: 10px;
+}
+
+.texto {
+    display: flex;
+    width: 100%;
+}
+
+h6 {
+    font-size: 25px;
+    color: #007fff;
+
+}
+
+#telefono img {
+    border-radius: 25px;
+}
+
+.pieuno {
+	background-color: #1f1e1e;
+}
+
+.pieuno h2 {
+	margin-left: 100px;
+    color: #007fff;
+    margin-top: 20px;
+    border: 1 px solid black;
+}
+
